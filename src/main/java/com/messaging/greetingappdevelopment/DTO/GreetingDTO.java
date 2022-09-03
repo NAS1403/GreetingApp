@@ -1,11 +1,9 @@
-package com.messaging.greetingappdevelopment.model;
+package com.messaging.greetingappdevelopment.DTO;
 
-public class UserData {
+public class GreetingDTO {
+
     private String firstName;
     private String lastName;
-
-    public UserData( ) {
-    }
 
     public String getFirstName() {
         return firstName;
@@ -22,5 +20,4 @@ public class UserData {
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
-
 }
